@@ -29,7 +29,7 @@ class Square:
         perimeter = self.length * 4
         return perimeter
 
-newrsquare = Square(5)
+newrsquare = Square(4)
 print(newrsquare.area())
 print(newrsquare.perimeter()) 
  
@@ -60,7 +60,7 @@ class Sphere:
         area =4*3.14*self.radius**2
         return area
 
-    def perimeter(self):
+    def volume(self):
         perimeter = 4/3*self.radius**3
         return perimeter
 

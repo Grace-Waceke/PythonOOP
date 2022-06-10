@@ -18,7 +18,7 @@ class Students:
             
 
         def greeting(self):
-             return f"Hello, I am {self.firstname}{self.lastname}and I am {self.age} years old, born in  from {self.country}, welcome to {self.school}and my short name is "
+             return f"Hello, I am {self.firstname}{self.lastname}and I am {self.age} years old, born in {self.country}, welcome to {self.school}and my short name is "
         def fullname(self):
             return f"{self.firstname}{self.lastname}"  
         def Yob(self,current_year):
